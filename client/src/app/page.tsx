@@ -1,9 +1,5 @@
-import Image from "next/image";
+import Home from "@/pages/Home";
 
-export default function Home() {
-  return (
-    <>
-    <p className="font-extralight"> Whereas recognition of the inherent dignity</p>
-    </>
-  );
+export default function Page() {
+  return <Home />;
 }
