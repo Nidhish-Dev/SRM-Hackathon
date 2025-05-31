@@ -1,9 +1,14 @@
 import React from 'react'
+import Carousel from "@/components/Carousel"
+import ResearchGroups from "@/components/ResearchGroups"
+import Education from "@/components/Education"
 
 function Home() {
   return (
     <div>
-      HOME PAGE
+      <Carousel />
+      <ResearchGroups />
+      <Education />
     </div>
   )
 }
